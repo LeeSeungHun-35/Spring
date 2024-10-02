@@ -1,5 +1,8 @@
 package com.PJ.kfs.dto;
 
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
 public class userdto {
     Long id;
     String name;
@@ -10,4 +13,5 @@ public class userdto {
     Long eq;
     Long mt;
     Long rk;
-}
+
+   }
